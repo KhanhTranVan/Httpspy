@@ -180,10 +180,10 @@ for method, enabled in Pairs(methods) do
 end;
 
 if not debug.info(2, "f") then
-    pconsole("You are running an outdated version, please use the loadstring at https://github.com/NotDSF/HttpSpy\n");
+    pconsole("You are running an outdated version, please use the loadstring at https://github.com/KhanhTranVan/HttpSpy\n");
 end;
 
-pconsole(format("HttpSpy %s (Creator: https://github.com/NotDSF)\nChange Logs:\n\t%s\nLogs are automatically being saved to: \27[32m%s\27[0m\n\n", version, RecentCommit, options.SaveLogs and logname or "(You aren't saving logs, enable SaveLogs if you want to save logs)"));
+pconsole(format("HttpSpy %s (Creator: https://github.com/KhanhTranVan)\nChange Logs:\n\t%s\nLogs are automatically being saved to: \27[32m%s\27[0m\n\n", version, RecentCommit, options.SaveLogs and logname or "(You aren't saving logs, enable SaveLogs if you want to save logs)"));
 
 if not options.API then return end;
 
